@@ -13,3 +13,7 @@ img {
 .card {
   width: 500px;
 }
+
+.active {
+  text-decoration: underline;
+}
