@@ -1,6 +1,7 @@
 import './App.css';
 import {NavLink, Route, Routes} from 'react-router-dom';
 import Home from './components/Home/Home';
+import About from './components/About/About';
 
 function App() {
 
@@ -25,6 +26,9 @@ function App() {
       <Routes>
         <Route path="/" element={(
           <Home></Home>
+        )} />
+        <Route path="/about-us" element={(
+          <About></About>
         )} />
       </Routes>
     </>
